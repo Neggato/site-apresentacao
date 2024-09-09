@@ -23,7 +23,7 @@ a {
 }
 
 header img {
-    width: 150px;
+    width: 130px;
     height: 150px;
     border-radius: 50%;
     border: 5px solid rgb(26, 98, 253)
@@ -38,8 +38,8 @@ h1 {
 }
 
 footer img {
-    width: 40px;
-    height: 40px;
+    width: 35px;
+    height: 25px;
 }
 
 footer {
@@ -58,4 +58,19 @@ footer p {
 
 .container {
     padding: 0px 50px;
+}
+
+nav a:hover {
+    color:rgb(97, 143, 241)
+}
+
+.Whatsapp {
+    color:rgb(97, 143, 241); 
+    font-weight: bold; 
+    text-decoration: none; 
+}
+
+.WhatsApp {
+    color:rgb(26, 98, 253); 
+    text-decoration: underline;
 }
