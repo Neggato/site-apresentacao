@@ -1,1 +1,80 @@
-PROJECT
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projetos João Vitor</title>
+
+    <link rel="icon" href="img/user.svg">
+    
+</head>
+
+<link rel="stylesheet" href="style.css">
+
+
+<body>
+    <main>
+        <section>
+            <h1 class="Projetos">
+                <strong>Projetos</strong><br><br>
+                <p>Aqui estão alguns dos principais projetos que desenvolvi nos últimos meses; todos eles utilizam linguagens como HTML, CSS e JavaScript.</p>
+            </h1>
+        </section>
+    </main>
+
+    <div class="carousel">
+        <button class="prev" onclick="showSlides(-1)">&#10094;</button> <!-- Seta Anterior -->
+    
+        <div class="slides">
+            <!-- Slide 1 -->
+            <div class="slide">
+                <img src="./img/Calculadora.jpg" alt="Calculadora de Juros">
+                <div class="caption">Esse foi um projeto de uma calculadora que gere os resultados de juros compostos mês à mês.
+                    Realizado utilizando HTML, CSS e JavaScript.</div>
+            </div>
+            
+            <!-- Slide 2 -->
+            <div class="slide">
+                <img src="./img/formulario.jpg" alt="Formulario2">
+                <div class="caption">Fomrulario para cadastro em que é obrigatório preencher todos os campos.
+                    Feito utilizando HTML, CSS e JavaScript.</div>
+            </div>
+            
+            <!-- Slide 3 -->
+            <div class="slide">
+                <img src="./img/relogio.jpg" alt="|Relogio">
+                <div class="caption">Relogio digital em tempo real, sempre com a hora atualizada mostrando Hora, Minutos e Segundos.
+                    Feito utilizando HTML, CSS e JavaScript.
+                </div>
+            </div>
+        </div>
+    
+        <button class="next" onclick="showSlides(1)">&#10095;</button> <!-- Seta Próximo -->
+    </div>
+    
+
+
+    <script type="text/javascript" src="script.js"></script>
+    
+
+</body>
+
+<footer>
+    <a href="https://github.com/Neggato" target="_blank" rel="noopener noreferrer">
+        <img src="./img/Github.svg"></img>
+        <p>Github</p>
+    </a>
+
+    <a href="https://www.linkedin.com/in/joaovitorfelix/" target="_blank" rel="noopener noreferrer">
+        <img src="./img/Linkedin.svg"></img>
+        <p>LinkedIn</p>
+    </a>
+
+    <a  class="WhatsApp" href="https://wa.me/5511949193092" target="_blank" rel="noopener noreferrer">
+        <img src="./img/whatsapp.svg" alt="WhatsApp">
+        <p>WhatsApp</p>
+    </a>
+
+</footer>
+
+</html>
